@@ -60,7 +60,7 @@ const resolvers = {
         }
     },
     deleteProfile: async (_, username) =>
-      await createZomeCall("/profiles/profile/delete_profile")({
+      await createZomeCall("/test-instance/profiles/delete_profile")({
         input: username.username
       })
     // createPrivateProfile: async (_, profileInput ) =>
