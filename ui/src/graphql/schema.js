@@ -17,12 +17,38 @@ export default gql`
     username: String
   }
 
+  input ProfileInput {
+    username: String!
+  }
+
+  type BooleanReturn {
+    value: Boolean
+  }
+
+  type Contacts {
+    agent_id: ID!
+    timestamp: Float
+    contacts: [ID]
+    blocked: [ID]
+  }
+
   type Query {
     allAgents: [Profile!]!
-    me: Profile!
+    me: Profile
+
+    contacts: [Profile!]
+    username(address: String): String!
+
+    listBlocked: [ID]
   }
 
   type Mutation {
-    createProfile(username: String!): Profile!
+    createProfile(username: String): Profile!
+    deleteProfile(username: String): Boolean
+    updateProfile(profile: ProfileInput): Boolean
+    addContact(username: String, timestamp: Float): Boolean
+    removeContact(username: String, timestamp: Float): Contacts
+    blockContact(username: String, timestamp: Float): Contacts
+    unblockContact(username: String, timestamp: Float): Contacts
   }
 `;

@@ -22,7 +22,7 @@ pub fn list_address() -> ZomeApiResult<Vec<Address>>{
 }
 
 // TODO: call a get_username from profile zome to check if this address has a username
-pub fn add(contact_address: Address, timestamp: usize) -> ZomeApiResult<Contacts> {
+pub fn add(contact_address: Address, timestamp: u64) -> ZomeApiResult<Contacts> {
 
     let query_result = hdk::api::query(Contacts::entry_type().into(), 0, 0)?;
     // let link_result = contacts_link_result()?;
@@ -65,7 +65,7 @@ pub fn add(contact_address: Address, timestamp: usize) -> ZomeApiResult<Contacts
     }
 }
 
-pub fn remove(contact_address: Address, timestamp: usize) -> ZomeApiResult<Contacts> {
+pub fn remove(contact_address: Address, timestamp: u64) -> ZomeApiResult<Contacts> {
     let query_result = hdk::api::query(Contacts::entry_type().into(), 0, 0)?;
 
     match query_result.len() {
@@ -103,7 +103,25 @@ pub fn remove(contact_address: Address, timestamp: usize) -> ZomeApiResult<Conta
 
 pub fn list_contacts() -> ZomeApiResult<Vec<Address>> {
     let query_result = hdk::api::query(Contacts::entry_type().into(), 0, 0)?;
-    
+
+    match query_result.len() {
+        0 => {
+            let empty_contacts: Vec<Address> = Vec::default();
+            Ok(empty_contacts)
+        },
+        _ => {
+            // may need refactoring on getting the most recent address
+            let contacts_address = query_result[0].clone();
+            let contacts: Contacts = hdk::utils::get_as_type(contacts_address)?;
+            // call get_username here to return Vec<username: String>
+            Ok(contacts.contacts)
+        },
+    }
+
+}
+
+pub fn list_blocked() -> ZomeApiResult<Vec<Address>> {
+    let query_result = hdk::api::query(Contacts::entry_type().into(), 0, 0)?;
 
     match query_result.len() {
         0 => {
@@ -117,9 +135,11 @@ pub fn list_contacts() -> ZomeApiResult<Vec<Address>> {
             let contacts_address = query_result[0].clone();
             let contacts: Contacts = hdk::utils::get_as_type(contacts_address)?;
             // call get_username here to return Vec<username: String>
-            Ok(contacts.contacts)
+            Ok(contacts.blocked)
         },
     }
+
+    
 }
 
 // fn contacts_link_result() -> ZomeApiResult<GetLinksResult> {
@@ -149,21 +169,20 @@ pub fn username_address(username: String) -> ZomeApiResult<Address> {
         call_input.into()
     )?;
 
-    // let object = json!(user_address_string);
-
     let username_address: Address = serde_json::from_str(&user_address_string.to_string()).unwrap();
 
     Ok(username_address)
     
 }
 
-pub fn block(contact_address: Address, timestamp: usize) -> ZomeApiResult<Contacts> {
+pub fn block(contact_address: Address, timestamp: u64) -> ZomeApiResult<Contacts> {
 
     if contact_address.to_string() == AGENT_ADDRESS.to_string() {
         return Err(ZomeApiError::from(String::from(
             "Cannot block yourself",
         )))
     }
+
     let query_result = hdk::api::query(Contacts::entry_type().into(), 0, 0)?;
     
     match query_result.len() {
@@ -211,7 +230,14 @@ pub fn block(contact_address: Address, timestamp: usize) -> ZomeApiResult<Contac
     }
 }
 
-pub fn unblock(contact_address: Address, timestamp: usize) -> ZomeApiResult<Contacts> {
+pub fn unblock(contact_address: Address, timestamp: u64) -> ZomeApiResult<Contacts> {
+
+    if contact_address.to_string() == AGENT_ADDRESS.to_string() {
+        return Err(ZomeApiError::from(String::from(
+            "Unblocking own agent id",
+        )))
+    }
+
     let query_result = hdk::api::query(Contacts::entry_type().into(), 0, 0)?;
     
     match query_result.len() {

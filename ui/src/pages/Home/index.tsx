@@ -1,35 +1,22 @@
-import {
-  IonButton,
-  IonButtons,
-  IonContent,
-  IonHeader,
-  IonIcon,
-  IonToolbar,
-} from "@ionic/react";
+import { IonPage } from "@ionic/react";
 import React from "react";
+import { Redirect, Route } from "react-router-dom";
+import HomeHeader from "../../components/Header/HomeHeader";
+import HomeTabBar from "../../components/Tab/HomeTabBar";
+import Contacts from "../Contacts";
 
-const Home: React.FC = () => {
-  // console.log(data);
-
-  return (
-    <IonContent>
-      <IonHeader>
-        <IonToolbar>
-          <IonButtons slot="secondary">
-            <IonButton>
-              <IonIcon slot="start" name="star" />
-            </IonButton>
-          </IonButtons>
-
-          <IonButtons slot="primary">
-            <IonButton>
-              <IonIcon name="create" />
-            </IonButton>
-          </IonButtons>
-        </IonToolbar>
-      </IonHeader>
-    </IonContent>
-  );
-};
+const Home: React.FC = () => (
+  <HomeTabBar>
+    <Route path="/home/messages" exact>
+      <IonPage>
+        <HomeHeader />
+      </IonPage>
+    </Route>
+    <Route path="/home/contacts" exact>
+      <Contacts />
+    </Route>
+    <Redirect from="/home*" to="/home/contacts" />
+  </HomeTabBar>
+);
 
 export default Home;

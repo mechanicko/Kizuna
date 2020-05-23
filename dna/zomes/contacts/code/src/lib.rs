@@ -29,38 +29,41 @@ mod contacts {
     }
 
     #[zome_fn("hc_public")]
-    fn add_contact(contact_address: Address, timestamp: usize) -> ZomeApiResult<Contacts> {
+    fn add_contact(username: String, timestamp: u64) -> ZomeApiResult<Contacts> {
+        let contact_address = contact::handlers::username_address(username)?;
         contact::handlers::add(contact_address, timestamp)
     }
 
     #[zome_fn("hc_public")]
-    fn remove_contact(contact_address: Address, timestamp: usize) -> ZomeApiResult<Contacts> {
+    fn remove_contact(username: String, timestamp: u64) -> ZomeApiResult<Contacts> {
+        let contact_address = contact::handlers::username_address(username)?;
         contact::handlers::remove(contact_address, timestamp)
     }
 
     #[zome_fn("hc_public")]
     fn list_contacts() -> ZomeApiResult<Vec<Address>> {
-            contact::handlers::list_contacts()
+        contact::handlers::list_contacts()
     }
 
     #[zome_fn("hc_public")]
     fn list_address() -> ZomeApiResult<Vec<Address>> {
-            contact::handlers::list_address()
+        contact::handlers::list_address()
     }
 
     #[zome_fn("hc_public")]
-    fn username_address(username: String) -> ZomeApiResult<Address> {
-        contact::handlers::username_address(username)
-    }
-
-    #[zome_fn("hc_public")]
-    fn block(username: String, timestamp: usize) -> ZomeApiResult<Contacts> {
+    fn block(username: String, timestamp: u64) -> ZomeApiResult<Contacts> {
         let contact_address = contact::handlers::username_address(username)?;
         contact::handlers::block(contact_address, timestamp)
     }
 
     #[zome_fn("hc_public")]
-    fn unblock(contact_address: Address, timestamp: usize) -> ZomeApiResult<Contacts> {
+    fn unblock(username: String, timestamp: u64) -> ZomeApiResult<Contacts> {
+        let contact_address = contact::handlers::username_address(username)?;
         contact::handlers::unblock(contact_address, timestamp)
+    }
+
+    #[zome_fn("hc_public")]
+    fn list_blocked() -> ZomeApiResult<Vec<Address>> {
+        contact::handlers::list_blocked()
     }
 }
