@@ -1,0 +1,10 @@
+/home/holo/Desktop/KizunaFork/Kizuna/target/wasm32-unknown-unknown/release/deps/memchr-09b8c32da3b9f87e.rmeta: /home/holo/Desktop/KizunaFork/Kizuna/.cargo/registry/src/github.com-1ecc6299db9ec823/memchr-2.3.3/src/lib.rs /home/holo/Desktop/KizunaFork/Kizuna/.cargo/registry/src/github.com-1ecc6299db9ec823/memchr-2.3.3/src/fallback.rs /home/holo/Desktop/KizunaFork/Kizuna/.cargo/registry/src/github.com-1ecc6299db9ec823/memchr-2.3.3/src/iter.rs /home/holo/Desktop/KizunaFork/Kizuna/.cargo/registry/src/github.com-1ecc6299db9ec823/memchr-2.3.3/src/naive.rs
+
+/home/holo/Desktop/KizunaFork/Kizuna/target/wasm32-unknown-unknown/release/deps/libmemchr-09b8c32da3b9f87e.rlib: /home/holo/Desktop/KizunaFork/Kizuna/.cargo/registry/src/github.com-1ecc6299db9ec823/memchr-2.3.3/src/lib.rs /home/holo/Desktop/KizunaFork/Kizuna/.cargo/registry/src/github.com-1ecc6299db9ec823/memchr-2.3.3/src/fallback.rs /home/holo/Desktop/KizunaFork/Kizuna/.cargo/registry/src/github.com-1ecc6299db9ec823/memchr-2.3.3/src/iter.rs /home/holo/Desktop/KizunaFork/Kizuna/.cargo/registry/src/github.com-1ecc6299db9ec823/memchr-2.3.3/src/naive.rs
+
+/home/holo/Desktop/KizunaFork/Kizuna/target/wasm32-unknown-unknown/release/deps/memchr-09b8c32da3b9f87e.d: /home/holo/Desktop/KizunaFork/Kizuna/.cargo/registry/src/github.com-1ecc6299db9ec823/memchr-2.3.3/src/lib.rs /home/holo/Desktop/KizunaFork/Kizuna/.cargo/registry/src/github.com-1ecc6299db9ec823/memchr-2.3.3/src/fallback.rs /home/holo/Desktop/KizunaFork/Kizuna/.cargo/registry/src/github.com-1ecc6299db9ec823/memchr-2.3.3/src/iter.rs /home/holo/Desktop/KizunaFork/Kizuna/.cargo/registry/src/github.com-1ecc6299db9ec823/memchr-2.3.3/src/naive.rs
+
+/home/holo/Desktop/KizunaFork/Kizuna/.cargo/registry/src/github.com-1ecc6299db9ec823/memchr-2.3.3/src/lib.rs:
+/home/holo/Desktop/KizunaFork/Kizuna/.cargo/registry/src/github.com-1ecc6299db9ec823/memchr-2.3.3/src/fallback.rs:
+/home/holo/Desktop/KizunaFork/Kizuna/.cargo/registry/src/github.com-1ecc6299db9ec823/memchr-2.3.3/src/iter.rs:
+/home/holo/Desktop/KizunaFork/Kizuna/.cargo/registry/src/github.com-1ecc6299db9ec823/memchr-2.3.3/src/naive.rs:

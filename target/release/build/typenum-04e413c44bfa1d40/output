@@ -1,0 +1,2 @@
+cargo:rustc-env=TYPENUM_BUILD_CONSTS=/home/holo/Desktop/KizunaFork/Kizuna/target/release/build/typenum-04e413c44bfa1d40/out/consts.rs
+cargo:rustc-env=TYPENUM_BUILD_OP=/home/holo/Desktop/KizunaFork/Kizuna/target/release/build/typenum-04e413c44bfa1d40/out/op.rs

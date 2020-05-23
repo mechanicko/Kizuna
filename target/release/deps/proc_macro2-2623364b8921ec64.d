@@ -1,0 +1,10 @@
+/home/holo/Desktop/KizunaFork/Kizuna/target/release/deps/proc_macro2-2623364b8921ec64.rmeta: /home/holo/Desktop/KizunaFork/Kizuna/.cargo/registry/src/github.com-1ecc6299db9ec823/proc-macro2-0.2.3/src/lib.rs /home/holo/Desktop/KizunaFork/Kizuna/.cargo/registry/src/github.com-1ecc6299db9ec823/proc-macro2-0.2.3/src/strnom.rs /home/holo/Desktop/KizunaFork/Kizuna/.cargo/registry/src/github.com-1ecc6299db9ec823/proc-macro2-0.2.3/src/stable.rs /home/holo/Desktop/KizunaFork/Kizuna/.cargo/registry/src/github.com-1ecc6299db9ec823/proc-macro2-0.2.3/src/macros.rs
+
+/home/holo/Desktop/KizunaFork/Kizuna/target/release/deps/libproc_macro2-2623364b8921ec64.rlib: /home/holo/Desktop/KizunaFork/Kizuna/.cargo/registry/src/github.com-1ecc6299db9ec823/proc-macro2-0.2.3/src/lib.rs /home/holo/Desktop/KizunaFork/Kizuna/.cargo/registry/src/github.com-1ecc6299db9ec823/proc-macro2-0.2.3/src/strnom.rs /home/holo/Desktop/KizunaFork/Kizuna/.cargo/registry/src/github.com-1ecc6299db9ec823/proc-macro2-0.2.3/src/stable.rs /home/holo/Desktop/KizunaFork/Kizuna/.cargo/registry/src/github.com-1ecc6299db9ec823/proc-macro2-0.2.3/src/macros.rs
+
+/home/holo/Desktop/KizunaFork/Kizuna/target/release/deps/proc_macro2-2623364b8921ec64.d: /home/holo/Desktop/KizunaFork/Kizuna/.cargo/registry/src/github.com-1ecc6299db9ec823/proc-macro2-0.2.3/src/lib.rs /home/holo/Desktop/KizunaFork/Kizuna/.cargo/registry/src/github.com-1ecc6299db9ec823/proc-macro2-0.2.3/src/strnom.rs /home/holo/Desktop/KizunaFork/Kizuna/.cargo/registry/src/github.com-1ecc6299db9ec823/proc-macro2-0.2.3/src/stable.rs /home/holo/Desktop/KizunaFork/Kizuna/.cargo/registry/src/github.com-1ecc6299db9ec823/proc-macro2-0.2.3/src/macros.rs
+
+/home/holo/Desktop/KizunaFork/Kizuna/.cargo/registry/src/github.com-1ecc6299db9ec823/proc-macro2-0.2.3/src/lib.rs:
+/home/holo/Desktop/KizunaFork/Kizuna/.cargo/registry/src/github.com-1ecc6299db9ec823/proc-macro2-0.2.3/src/strnom.rs:
+/home/holo/Desktop/KizunaFork/Kizuna/.cargo/registry/src/github.com-1ecc6299db9ec823/proc-macro2-0.2.3/src/stable.rs:
+/home/holo/Desktop/KizunaFork/Kizuna/.cargo/registry/src/github.com-1ecc6299db9ec823/proc-macro2-0.2.3/src/macros.rs:

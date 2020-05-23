@@ -1,0 +1,10 @@
+/home/holo/Desktop/KizunaFork/Kizuna/target/release/deps/idna-105eab4e549326cf.rmeta: /home/holo/Desktop/KizunaFork/Kizuna/.cargo/registry/src/github.com-1ecc6299db9ec823/idna-0.2.0/src/lib.rs /home/holo/Desktop/KizunaFork/Kizuna/.cargo/registry/src/github.com-1ecc6299db9ec823/idna-0.2.0/src/punycode.rs /home/holo/Desktop/KizunaFork/Kizuna/.cargo/registry/src/github.com-1ecc6299db9ec823/idna-0.2.0/src/uts46.rs /home/holo/Desktop/KizunaFork/Kizuna/.cargo/registry/src/github.com-1ecc6299db9ec823/idna-0.2.0/src/uts46_mapping_table.rs
+
+/home/holo/Desktop/KizunaFork/Kizuna/target/release/deps/libidna-105eab4e549326cf.rlib: /home/holo/Desktop/KizunaFork/Kizuna/.cargo/registry/src/github.com-1ecc6299db9ec823/idna-0.2.0/src/lib.rs /home/holo/Desktop/KizunaFork/Kizuna/.cargo/registry/src/github.com-1ecc6299db9ec823/idna-0.2.0/src/punycode.rs /home/holo/Desktop/KizunaFork/Kizuna/.cargo/registry/src/github.com-1ecc6299db9ec823/idna-0.2.0/src/uts46.rs /home/holo/Desktop/KizunaFork/Kizuna/.cargo/registry/src/github.com-1ecc6299db9ec823/idna-0.2.0/src/uts46_mapping_table.rs
+
+/home/holo/Desktop/KizunaFork/Kizuna/target/release/deps/idna-105eab4e549326cf.d: /home/holo/Desktop/KizunaFork/Kizuna/.cargo/registry/src/github.com-1ecc6299db9ec823/idna-0.2.0/src/lib.rs /home/holo/Desktop/KizunaFork/Kizuna/.cargo/registry/src/github.com-1ecc6299db9ec823/idna-0.2.0/src/punycode.rs /home/holo/Desktop/KizunaFork/Kizuna/.cargo/registry/src/github.com-1ecc6299db9ec823/idna-0.2.0/src/uts46.rs /home/holo/Desktop/KizunaFork/Kizuna/.cargo/registry/src/github.com-1ecc6299db9ec823/idna-0.2.0/src/uts46_mapping_table.rs
+
+/home/holo/Desktop/KizunaFork/Kizuna/.cargo/registry/src/github.com-1ecc6299db9ec823/idna-0.2.0/src/lib.rs:
+/home/holo/Desktop/KizunaFork/Kizuna/.cargo/registry/src/github.com-1ecc6299db9ec823/idna-0.2.0/src/punycode.rs:
+/home/holo/Desktop/KizunaFork/Kizuna/.cargo/registry/src/github.com-1ecc6299db9ec823/idna-0.2.0/src/uts46.rs:
+/home/holo/Desktop/KizunaFork/Kizuna/.cargo/registry/src/github.com-1ecc6299db9ec823/idna-0.2.0/src/uts46_mapping_table.rs:

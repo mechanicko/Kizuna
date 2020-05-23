@@ -169,10 +169,21 @@ pub fn username_address(username: String) -> ZomeApiResult<Address> {
         call_input.into()
     )?;
 
-    let username_address: Address = serde_json::from_str(&user_address_string.to_string()).unwrap();
+    // previous working implementation
+    // let username_address: Address = serde_json::from_str(&user_address_string.to_string()).unwrap();
+    // Ok(username_address)
 
-    Ok(username_address)
-    
+    // match
+    // let converted: ZomeApiResult<Address> = match serde_json::from_str(&user_address_string.clone().to_string()) {
+    //     Ok(t) => match t {
+    //         Address<u> => u,
+    //         _ => Err(ZomeApiError::from(String::from("This username does not exist")))    
+    //     },
+    //     _ => Err(ZomeApiError::from(String::from("This username does not exist")))
+    // };
+
+    let converted: ZomeApiResult<Address> = serde_json::from_str(&user_address_string.clone().to_string()).unwrap();
+    converted
 }
 
 pub fn block(contact_address: Address, timestamp: u64) -> ZomeApiResult<Contacts> {

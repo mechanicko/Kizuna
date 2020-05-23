@@ -1,0 +1,10 @@
+/home/holo/Desktop/KizunaFork/Kizuna/target/wasm32-unknown-unknown/release/deps/hcid-5675d74edcd9ff3b.rmeta: /home/holo/Desktop/KizunaFork/Kizuna/.cargo/registry/src/github.com-1ecc6299db9ec823/hcid-0.0.6/src/lib.rs /home/holo/Desktop/KizunaFork/Kizuna/.cargo/registry/src/github.com-1ecc6299db9ec823/hcid-0.0.6/src/error.rs /home/holo/Desktop/KizunaFork/Kizuna/.cargo/registry/src/github.com-1ecc6299db9ec823/hcid-0.0.6/src/b32.rs /home/holo/Desktop/KizunaFork/Kizuna/.cargo/registry/src/github.com-1ecc6299db9ec823/hcid-0.0.6/src/util.rs
+
+/home/holo/Desktop/KizunaFork/Kizuna/target/wasm32-unknown-unknown/release/deps/libhcid-5675d74edcd9ff3b.rlib: /home/holo/Desktop/KizunaFork/Kizuna/.cargo/registry/src/github.com-1ecc6299db9ec823/hcid-0.0.6/src/lib.rs /home/holo/Desktop/KizunaFork/Kizuna/.cargo/registry/src/github.com-1ecc6299db9ec823/hcid-0.0.6/src/error.rs /home/holo/Desktop/KizunaFork/Kizuna/.cargo/registry/src/github.com-1ecc6299db9ec823/hcid-0.0.6/src/b32.rs /home/holo/Desktop/KizunaFork/Kizuna/.cargo/registry/src/github.com-1ecc6299db9ec823/hcid-0.0.6/src/util.rs
+
+/home/holo/Desktop/KizunaFork/Kizuna/target/wasm32-unknown-unknown/release/deps/hcid-5675d74edcd9ff3b.d: /home/holo/Desktop/KizunaFork/Kizuna/.cargo/registry/src/github.com-1ecc6299db9ec823/hcid-0.0.6/src/lib.rs /home/holo/Desktop/KizunaFork/Kizuna/.cargo/registry/src/github.com-1ecc6299db9ec823/hcid-0.0.6/src/error.rs /home/holo/Desktop/KizunaFork/Kizuna/.cargo/registry/src/github.com-1ecc6299db9ec823/hcid-0.0.6/src/b32.rs /home/holo/Desktop/KizunaFork/Kizuna/.cargo/registry/src/github.com-1ecc6299db9ec823/hcid-0.0.6/src/util.rs
+
+/home/holo/Desktop/KizunaFork/Kizuna/.cargo/registry/src/github.com-1ecc6299db9ec823/hcid-0.0.6/src/lib.rs:
+/home/holo/Desktop/KizunaFork/Kizuna/.cargo/registry/src/github.com-1ecc6299db9ec823/hcid-0.0.6/src/error.rs:
+/home/holo/Desktop/KizunaFork/Kizuna/.cargo/registry/src/github.com-1ecc6299db9ec823/hcid-0.0.6/src/b32.rs:
+/home/holo/Desktop/KizunaFork/Kizuna/.cargo/registry/src/github.com-1ecc6299db9ec823/hcid-0.0.6/src/util.rs:

@@ -1,0 +1,10 @@
+/home/holo/Desktop/KizunaFork/Kizuna/target/release/deps/proc_macro2-55df5f9f4acb6097.rmeta: /home/holo/Desktop/KizunaFork/Kizuna/.cargo/registry/src/github.com-1ecc6299db9ec823/proc-macro2-0.4.27/src/lib.rs /home/holo/Desktop/KizunaFork/Kizuna/.cargo/registry/src/github.com-1ecc6299db9ec823/proc-macro2-0.4.27/src/strnom.rs /home/holo/Desktop/KizunaFork/Kizuna/.cargo/registry/src/github.com-1ecc6299db9ec823/proc-macro2-0.4.27/src/fallback.rs /home/holo/Desktop/KizunaFork/Kizuna/.cargo/registry/src/github.com-1ecc6299db9ec823/proc-macro2-0.4.27/src/wrapper.rs
+
+/home/holo/Desktop/KizunaFork/Kizuna/target/release/deps/libproc_macro2-55df5f9f4acb6097.rlib: /home/holo/Desktop/KizunaFork/Kizuna/.cargo/registry/src/github.com-1ecc6299db9ec823/proc-macro2-0.4.27/src/lib.rs /home/holo/Desktop/KizunaFork/Kizuna/.cargo/registry/src/github.com-1ecc6299db9ec823/proc-macro2-0.4.27/src/strnom.rs /home/holo/Desktop/KizunaFork/Kizuna/.cargo/registry/src/github.com-1ecc6299db9ec823/proc-macro2-0.4.27/src/fallback.rs /home/holo/Desktop/KizunaFork/Kizuna/.cargo/registry/src/github.com-1ecc6299db9ec823/proc-macro2-0.4.27/src/wrapper.rs
+
+/home/holo/Desktop/KizunaFork/Kizuna/target/release/deps/proc_macro2-55df5f9f4acb6097.d: /home/holo/Desktop/KizunaFork/Kizuna/.cargo/registry/src/github.com-1ecc6299db9ec823/proc-macro2-0.4.27/src/lib.rs /home/holo/Desktop/KizunaFork/Kizuna/.cargo/registry/src/github.com-1ecc6299db9ec823/proc-macro2-0.4.27/src/strnom.rs /home/holo/Desktop/KizunaFork/Kizuna/.cargo/registry/src/github.com-1ecc6299db9ec823/proc-macro2-0.4.27/src/fallback.rs /home/holo/Desktop/KizunaFork/Kizuna/.cargo/registry/src/github.com-1ecc6299db9ec823/proc-macro2-0.4.27/src/wrapper.rs
+
+/home/holo/Desktop/KizunaFork/Kizuna/.cargo/registry/src/github.com-1ecc6299db9ec823/proc-macro2-0.4.27/src/lib.rs:
+/home/holo/Desktop/KizunaFork/Kizuna/.cargo/registry/src/github.com-1ecc6299db9ec823/proc-macro2-0.4.27/src/strnom.rs:
+/home/holo/Desktop/KizunaFork/Kizuna/.cargo/registry/src/github.com-1ecc6299db9ec823/proc-macro2-0.4.27/src/fallback.rs:
+/home/holo/Desktop/KizunaFork/Kizuna/.cargo/registry/src/github.com-1ecc6299db9ec823/proc-macro2-0.4.27/src/wrapper.rs:

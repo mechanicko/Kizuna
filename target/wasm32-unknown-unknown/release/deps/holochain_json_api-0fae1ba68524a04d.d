@@ -1,0 +1,9 @@
+/home/holo/Desktop/KizunaFork/Kizuna/target/wasm32-unknown-unknown/release/deps/holochain_json_api-0fae1ba68524a04d.rmeta: /home/holo/Desktop/KizunaFork/Kizuna/.cargo/registry/src/github.com-1ecc6299db9ec823/holochain_json_api-0.0.23/src/lib.rs /home/holo/Desktop/KizunaFork/Kizuna/.cargo/registry/src/github.com-1ecc6299db9ec823/holochain_json_api-0.0.23/src/error/mod.rs /home/holo/Desktop/KizunaFork/Kizuna/.cargo/registry/src/github.com-1ecc6299db9ec823/holochain_json_api-0.0.23/src/json.rs
+
+/home/holo/Desktop/KizunaFork/Kizuna/target/wasm32-unknown-unknown/release/deps/libholochain_json_api-0fae1ba68524a04d.rlib: /home/holo/Desktop/KizunaFork/Kizuna/.cargo/registry/src/github.com-1ecc6299db9ec823/holochain_json_api-0.0.23/src/lib.rs /home/holo/Desktop/KizunaFork/Kizuna/.cargo/registry/src/github.com-1ecc6299db9ec823/holochain_json_api-0.0.23/src/error/mod.rs /home/holo/Desktop/KizunaFork/Kizuna/.cargo/registry/src/github.com-1ecc6299db9ec823/holochain_json_api-0.0.23/src/json.rs
+
+/home/holo/Desktop/KizunaFork/Kizuna/target/wasm32-unknown-unknown/release/deps/holochain_json_api-0fae1ba68524a04d.d: /home/holo/Desktop/KizunaFork/Kizuna/.cargo/registry/src/github.com-1ecc6299db9ec823/holochain_json_api-0.0.23/src/lib.rs /home/holo/Desktop/KizunaFork/Kizuna/.cargo/registry/src/github.com-1ecc6299db9ec823/holochain_json_api-0.0.23/src/error/mod.rs /home/holo/Desktop/KizunaFork/Kizuna/.cargo/registry/src/github.com-1ecc6299db9ec823/holochain_json_api-0.0.23/src/json.rs
+
+/home/holo/Desktop/KizunaFork/Kizuna/.cargo/registry/src/github.com-1ecc6299db9ec823/holochain_json_api-0.0.23/src/lib.rs:
+/home/holo/Desktop/KizunaFork/Kizuna/.cargo/registry/src/github.com-1ecc6299db9ec823/holochain_json_api-0.0.23/src/error/mod.rs:
+/home/holo/Desktop/KizunaFork/Kizuna/.cargo/registry/src/github.com-1ecc6299db9ec823/holochain_json_api-0.0.23/src/json.rs:

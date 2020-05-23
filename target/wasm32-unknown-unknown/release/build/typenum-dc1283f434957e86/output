@@ -1,0 +1,2 @@
+cargo:rustc-env=TYPENUM_BUILD_CONSTS=/home/holo/Desktop/KizunaFork/Kizuna/target/wasm32-unknown-unknown/release/build/typenum-dc1283f434957e86/out/consts.rs
+cargo:rustc-env=TYPENUM_BUILD_OP=/home/holo/Desktop/KizunaFork/Kizuna/target/wasm32-unknown-unknown/release/build/typenum-dc1283f434957e86/out/op.rs
