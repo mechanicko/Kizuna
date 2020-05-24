@@ -182,8 +182,7 @@ pub fn username_address(username: String) -> ZomeApiResult<Address> {
     //     _ => Err(ZomeApiError::from(String::from("This username does not exist")))
     // };
 
-    let converted: ZomeApiResult<Address> = serde_json::from_str(&user_address_string.clone().to_string()).unwrap();
-    converted
+    serde_json::from_str(&user_address_string.clone().to_string()).unwrap()
 }
 
 pub fn block(contact_address: Address, timestamp: u64) -> ZomeApiResult<Contacts> {

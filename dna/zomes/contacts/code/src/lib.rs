@@ -40,6 +40,11 @@ mod contacts {
         contact::handlers::remove(contact_address, timestamp)
     }
 
+    // #[zome_fn("hc_public")]
+    // fn username_address(username: String) -> ZomeApiResult<Address> {
+    //     contact::handlers::username_address(username)
+    // }
+
     #[zome_fn("hc_public")]
     fn list_contacts() -> ZomeApiResult<Vec<Address>> {
         contact::handlers::list_contacts()
